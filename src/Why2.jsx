@@ -6,16 +6,7 @@ const Why2 = () => {
   return (
     <div className="relative min-h-screen w-full overflow-hidden bg-[#0a0a0a] px-4 py-20 sm:px-6 sm:py-24 md:px-12 lg:px-20 lg:py-30">
       {/* Grid Background */}
-      <div
-        className="absolute inset-0 z-[1] opacity-5 mask-b-from-50% mask-l-from-50% mask-r-from-50% mask-t-from-50%"
-        style={{
-          backgroundImage: `
-            linear-gradient(to right, #e5e7eb 1px, transparent 1px),
-            linear-gradient(to bottom, #e5e7eb 1px, transparent 1px)
-          `,
-          backgroundSize: "40px 40px",
-        }}
-      />
+   
 
       {/* Top Shape */}
       <div className="absolute left-1/2 top-0 z-[2] w-[220px] -translate-x-1/2 sm:w-[320px] lg:w-[402px]">

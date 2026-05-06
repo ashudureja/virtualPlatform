@@ -106,12 +106,8 @@ export function AnimatedBeamDemo() {
           </div>
 
           <div className="flex justify-center">
-            <Circle
-              ref={div4Ref}
-              className="size-11 min-h-0 max-w-none rounded-full text-sm sm:size-16 lg:size-16"
-            >
-              <h1 className="text-neutral-600">VP</h1>
-            </Circle>
+            <div  ref={div4Ref} className="size-12 items-center justify-center flex rounded-full bg-amber-300 ">VP</div>
+           
           </div>
 
           <div className="flex justify-end">
