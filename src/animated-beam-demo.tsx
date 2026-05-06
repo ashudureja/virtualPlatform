@@ -106,7 +106,12 @@ export function AnimatedBeamDemo() {
           </div>
 
           <div className="flex justify-center">
-            <div  ref={div4Ref} className="size-12 items-center justify-center flex rounded-full bg-amber-300 ">VP</div>
+            <div className="relative size-11 sm:size-16 items-center flex justify-center rounded-full border border-white/10">
+            <div  ref={div4Ref} className="size-9 sm:size-14 items-center justify-center flex rounded-full bg-[#2e2e30] relative z-20">VP</div>
+
+            </div>
+
+            
            
           </div>
 

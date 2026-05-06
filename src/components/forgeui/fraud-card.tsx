@@ -180,8 +180,8 @@ const LifecycleCard = ({ steps = defaultSteps }: LifecycleCardProps) => {
         </p>
       </div>
 
-      <div className="relative flex h-full w-75 flex-col">
-        <div className="mt-8 py-3">
+      <div className="relative flex h-full w-75 flex-col ">
+        <div className=" mt-5">
           <div className="relative z-10 flex items-center justify-center gap-2 rounded-[6px] bg-neutral-50 p-0.5 shadow-md dark:bg-black">
             <div className="flex h-full w-full items-center justify-between gap-3 rounded-[4px] bg-neutral-100 p-3 dark:bg-neutral-800">
               <div className="flex items-center justify-center gap-4">
@@ -237,8 +237,8 @@ const LifecycleCard = ({ steps = defaultSteps }: LifecycleCardProps) => {
           </svg>
         </div>
 
-        <div className="absolute inset-x-12 top-32.5 flex w-fit flex-col items-center justify-center">
-          <div className="flex h-full w-full flex-col items-center justify-center gap-7">
+        <div className="absolute inset-x-12 top-28 flex w-fit flex-col items-center justify-center">
+          <div className="flex h-full w-full flex-col items-center justify-center gap-4 sm:gap-7">
             {steps.map(({ title, description }, index) => (
               <StepItem
                 key={title}
