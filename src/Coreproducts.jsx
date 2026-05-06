@@ -18,6 +18,8 @@ import SignalApple from './Icons/Network'
 import LayoutDashboardApple from './Icons/Layout'
 import SendApple from './Icons/Send'
 import LoaderPinwheelApple from './Icons/Loader'
+import LayersApple from './Icons/Layers'
+import CircuitBoardApple from './Icons/Circuit'
 
 const ICON_PROPS = { size: 22, color: '#ffffff', strokeWidth: 1.5 }
 
@@ -39,7 +41,7 @@ const products = [
     desc: 'Automated data protection — restore anything, any time',
   },
   {
-    icon: <Server {...ICON_PROPS} />,
+    icon: <CircuitBoardApple/>,
     name: 'Compute',
     desc: 'Cloud servers and virtual machines — no physical hardware needed',
   },
@@ -54,7 +56,7 @@ const products = [
     desc: 'Automatic security certificates — keep every client site secure',
   },
   {
-    icon: <Database {...ICON_PROPS} />,
+    icon: <LayersApple/>,
     name: 'Object Storage',
     desc: 'Scalable cloud file storage — pay only for what you use',
   },

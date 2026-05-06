@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import LayoutDashboardApple from "./Icons/Layout";
 
 /* ─────────────────────────────────────────────
    FOOTER LINKS
@@ -34,28 +35,7 @@ const FOOTER_COLS = [
 ───────────────────────────────────────────── */
 function VPMark({ size = 26 }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 14 14" fill="none">
-      <rect x="1" y="1" width="5" height="5" rx="1.2" fill="white" />
-      <rect
-        x="8"
-        y="1"
-        width="5"
-        height="5"
-        rx="1.2"
-        fill="white"
-        className="opacity-55"
-      />
-      <rect
-        x="1"
-        y="8"
-        width="5"
-        height="5"
-        rx="1.2"
-        fill="white"
-        className="opacity-55"
-      />
-      <rect x="8" y="8" width="5" height="5" rx="1.2" fill="white" />
-    </svg>
+   <LayoutDashboardApple/>
   );
 }
 
