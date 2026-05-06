@@ -10,6 +10,7 @@ import {
   Layers,
 } from "lucide-react";
 import { motion } from "motion/react";
+import LoaderPinwheelApple from "./Icons/Loader";
 
 const Integration = () => {
   const integrationIcons = [
@@ -210,9 +211,9 @@ const Integration = () => {
         {/* Central logo */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
           <div className="absolute w-48 h-48 -translate-x-1/2 -translate-y-1/2 rounded-full top-1/2 left-1/2 bg-blue-500/40 blur-[50px]" />
-          <div className="relative font-[f3] text-neutral-400 flex items-center justify-center border shadow-2xl w-20 h-20 sm:w-24 sm:h-24 rounded-[24px] bg-gradient-to-b from-gray-800 to-black border-white/10">
-            <div className="absolute inset-0 bg-gradient-to-b  from-white/10 to-transparent rounded-[24px] opacity-50" />
-            VP
+          <div className="relative font-[f3] text-neutral-400 flex items-center justify-center  shadow-2xl w-20 h-20 sm:w-24 sm:h-24 rounded-[24px] bg-gradient-to-b from-gray-800 to-black ">
+           
+            <LoaderPinwheelApple/>
           </div>
         </div>
       </div>
