@@ -58,7 +58,7 @@ const LifecycleCard = ({ steps = defaultSteps }: LifecycleCardProps) => {
 
   const textvariant = {
     open: {
-      opacity: [0, 1, 1, 0],
+     
       filter: ["blur(10px)", "blur(0px)", "blur(0px)", "blur(8px)"],
       y: [8, 0, 0, -4],
       transition: {
@@ -71,7 +71,7 @@ const LifecycleCard = ({ steps = defaultSteps }: LifecycleCardProps) => {
 
   const iconvariant = {
     open: {
-      opacity: [0, 1, 1, 0],
+      
       scale: [0.75, 1, 1, 0.9],
       transition: {
         duration: 3.4,
@@ -101,22 +101,16 @@ const LifecycleCard = ({ steps = defaultSteps }: LifecycleCardProps) => {
         "h-full w-full bg-gradient-to-br from-white via-blue-200 to-blue-50 font-[f2]",
         "group overflow-hidden border ",
         "clbeam-container relative flex flex-col items-center",
-        "rounded-md  text-white dark:bg-neutral-900"
+        "rounded-md  text-white dark:bg-neutral-900",
       )}
     >
-
       <div className=" mt-6 ml-2  pl-4 font-[f2] ">
-                <h3 className="text-xl text-black sm:text-2xl">
-                 Lifecycle Management
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-neutral-500 sm:text-[16px]">
-                  Qualify, order, manage, support and bill services from one connected
+        <h3 className="text-xl text-black sm:text-2xl">Lifecycle Management</h3>
+        <p className="mt-2 text-sm leading-relaxed text-neutral-500 sm:text-[16px]">
+          Qualify, order, manage, support and bill services from one connected
           portal — with full visibility across the customer journey.
-                </p>
-              </div>
-      
-
-      
+        </p>
+      </div>
 
       <div className="relative flex h-full w-75 flex-col">
         <div className="mt-8 py-3">
@@ -128,11 +122,9 @@ const LifecycleCard = ({ steps = defaultSteps }: LifecycleCardProps) => {
                 </motion.div>
 
                 <p className="font-mono text-[10px] text-neutral-600 dark:text-neutral-400">
-                  Service lifecycle 
+                  Service lifecycle
                 </p>
               </div>
-
-             
             </div>
           </div>
         </div>
@@ -208,8 +200,6 @@ const LifecycleCard = ({ steps = defaultSteps }: LifecycleCardProps) => {
                   >
                     {description}
                   </motion.p>
-
-                 
                 </div>
               </div>
             ))}
